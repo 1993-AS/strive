@@ -1,0 +1,54 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.grupo-2{
+    padding: 8px 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #006187;
+    font-size: 13px;
+    
+}
+
+footer {
+    display: block;
+}
+
+/* Estilos para la sección de NOSOTROS */
+
+
+main {
+    padding: 20px;
+}
+
+.section {
+    background-color: #ffffff;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+.section-image {
+    width: 100px; 
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.section:hover {
+    background-color: #699EBF;
+    cursor: pointer;
+	
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}

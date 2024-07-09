@@ -1,0 +1,78 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+
+.imagen{
+    width: 350px;
+    height: 250px;
+    margin: 20px 150px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen1{
+    width: 350px;
+    height: 250px;
+    margin: 20px 150px;
+    border-radius: 20px;
+}
+
+.contenedor1{
+    display: flex;
+    justify-content: center;
+}
+
+.hijo{
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 20px;
+    background-color: blue;
+    margin: 0 24px;
+    border-radius: 20px;
+}
+
+
+.contenedor2{
+    display: flex;
+    justify-content: center;
+
+}
+
+.imagen2{
+    margin: 0 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+.nombre{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    padding: 30px;
+    margin: 20px;
+    font-size: 40px;
+    background-color: aqua;
+}
+
+.grupo-2{
+    padding: 8px 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #006187;
+    font-size: 13px;
+}
+
+.promociones{
+    justify-content: center;
+    align-items: center;
+}

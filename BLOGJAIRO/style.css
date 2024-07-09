@@ -1,0 +1,89 @@
+* Estilo general */ body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 0;
+    background-color: #f0f0f0;
+    margin: left 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.grupo-2{
+    padding: 8px 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #006187;
+    font-size: 13px;
+}
+
+/* Estilos específicos para secciones */
+
+.intro,
+.content,
+.blog-content,
+.sports-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro h2,
+.content h2,
+.blog-content h2,
+.sports-content h2 {
+    margin-top: 0;
+
+}
+
+.blog-column:hover {
+    transform: translateY(-5px);
+    /* Efecto de levantamiento al pasar el ratón */
+
+}
+
+.blog-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-column {
+    background-color: #fff;
+    /* Fondo blanco */
+    padding: 20px;
+    /* Espaciado interior */
+    margin-bottom: 20px;
+    /* Espacio inferior */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    /* Sombra ligera */
+    transition: transform 0.3s ease;
+    /* Transición suave */
+
+
+}
+
+.blog-column p {
+    color: #444;
+    /* Color de texto más oscuro */
+    line-height: 1.6;
+
+
+}
+
+
+blog-column h3 {
+    color: #008080;
+    margin-top: 0;
+}
+
+.sports-image {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sports-image img {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,66 @@
+
+
+#descripcion{
+    font-size: 25px;
+    text-align: center;
+}   
+
+.pregunta{
+    font-size: 40px;
+    background-color: rgb(250, 250, 250);
+}
+
+#respuesta{
+    flex-direction: column;
+    
+}
+
+input{
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: blue;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.logo1{
+    display: flex;
+    border-radius: 100px;
+    
+}
+
+.logo-img{
+    height: 130px;
+    margin-right: 50px;
+    background-color: aqua;
+}
+
+.logo-nombre{
+    font-size: 70px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 20px;
+    color: red;
+}
+
+nav a:hover{
+    color: aqua;
+}
+
+.grupo-2{
+    padding: 8px 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #006187;
+    font-size: 13px;
+}
